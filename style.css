@@ -1,0 +1,191 @@
+body {
+    background: silver;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+#text-body {
+    color: #F29A2E;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.button-topo{
+    gap: 2%;
+}
+
+#login {
+    --bs-btn-color: #F2AB27;
+    --bs-btn-border-color: #F2AB27;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #F2AB27;
+    --bs-btn-hover-border-color: #F2AB27;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #F2AB27;
+    --bs-btn-active-border-color: #F2AB27;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #F2AB27;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #F2AB27;
+    --bs-gradient: none;
+}
+
+#registro {
+    background-color: #F2AB27;
+    border-color: transparent
+}
+
+.textmsg {
+    display: grid;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.subtext {
+    display: grid;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1.5rem ;
+    text-align: center;
+}
+.botao-tipo-plano {
+    display: flex;
+    justify-content: center;
+    /* height: 6vh;
+    width: 100vw; */
+    margin-bottom: 5%;
+}
+
+#btn-group {
+    height: 3vmin;
+    height: 4vmax;
+    width: 70vmax;
+    width: 30vmin;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    --bs-btn-color: #F2AB27;
+    --bs-btn-border-color: #F2AB27;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #F2AB27;
+    --bs-btn-hover-border-color: #F2AB27;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #F2AB27;
+    --bs-btn-active-border-color: #F2AB27;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #F2AB27;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #F2AB27;
+    --bs-gradient: none;
+}
+
+ul {
+    padding-left:1rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.btn-btn-outline-secondary {
+    gap: 1rem;
+}
+
+.fw-bold {
+    font-size: 2.5rem;
+}
+
+.fw-bolder {
+    display: flex;
+    flex-direction: column;
+}
+
+strong {
+    font-size: 2rem;
+}
+
+.card-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+#saiba-mais {
+    --bs-btn-color: #F2AB27;
+    --bs-btn-border-color: #F2AB27;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #F2AB27;
+    --bs-btn-hover-border-color: #F2AB27;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #F2AB27;
+    --bs-btn-active-border-color: #F2AB27;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #F2AB27;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #F2AB27;
+    --bs-gradient: none;
+
+    display: flex;
+    justify-content: center;
+}
+
+ul li.card {
+    border-color: #F29A2E;
+    border-style: groove;
+}
+
+#linkcheck {
+    color: #F2AB27
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-home-v4-footer-social li{
+    list-style-type: none
+}
+
+.new-home-v4-footer-title{
+    display: flex;
+    justify-content: center;
+    color: #ffffff91;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    
+}
+
+.new-home-v4-footer-logo{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    
+}
+
+.link-end-nav {
+    list-style-type: none;
+}
+
+.new-home-v4-footer-disclaimer p, hr{
+    color: #ffffff91;
+}
+
